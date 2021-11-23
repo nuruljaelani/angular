@@ -1,52 +1,52 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "kode_produk": "P1",
-            "nama_produk": "Iphone 12",
-            "jenis_produk": "Smartphone",
-            "harga": 13000000,
-            "stok": 10
-        },
-        {
-            "id": 2,
-            "kode_produk": "P2",
-            "nama_produk": "Lenovo Thinkpad",
-            "jenis_produk": "Laptop",
-            "harga": 10000000,
-            "stok": 20
-        },
-        {
-            "id": 3,
-            "kode_produk": "P3",
-            "nama_produk": "Samsung Galaxy M30",
-            "jenis_produk": "Smartphone",
-            "harga": 3000000,
-            "stok": 15
-        },
-        {
-            "id": 4,
-            "kode_produk": "P4",
-            "nama_produk": "Xiaomi Redmi 10",
-            "jenis_produk": "Smartphone",
-            "harga": 2000000,
-            "stok": 28
-        },
-        {
-            "id": 5,
-            "kode_produk": "P5",
-            "nama_produk": "Cannon M50",
-            "jenis_produk": "Kamera",
-            "harga": 14000000,
-            "stok": 7
-        },
-        {
-            "id": 6,
-            "kode_produk": "P6",
-            "nama_produk": "Gopro 5",
-            "jenis_produk": "Kamera",
-            "harga": 2500000,
-            "stok": 19
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "kode_produk": "P1",
+      "nama_produk": "Iphone 12",
+      "jenis_produk": "Smartphone",
+      "harga": 13000000,
+      "stok": 10
+    },
+    {
+      "id": 2,
+      "kode_produk": "P2",
+      "nama_produk": "Lenovo Thinkpad",
+      "jenis_produk": "Laptop",
+      "harga": 10000000,
+      "stok": 20
+    },
+    {
+      "id": 3,
+      "kode_produk": "P3",
+      "nama_produk": "Samsung Galaxy M30",
+      "jenis_produk": "Smartphone",
+      "harga": 3000000,
+      "stok": 15
+    },
+    {
+      "id": 4,
+      "kode_produk": "P4",
+      "nama_produk": "Xiaomi Redmi 10",
+      "jenis_produk": "Smartphone",
+      "harga": 2000000,
+      "stok": 28
+    },
+    {
+      "id": 5,
+      "kode_produk": "P5",
+      "nama_produk": "Cannon M50",
+      "jenis_produk": "Kamera",
+      "harga": 14000000,
+      "stok": 7
+    },
+    {
+      "id": 6,
+      "kode_produk": "P6",
+      "nama_produk": "Gopro 5",
+      "jenis_produk": "Kamera",
+      "harga": 2500000,
+      "stok": 19
+    }
+  ]
 }

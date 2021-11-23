@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { ProductService } from '../../../services/product.service';
 
 @Component({
   selector: 'app-insert',
@@ -7,33 +9,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InsertComponent implements OnInit {
 
-  kode_produk!: string;
-  nama_produk!: string;
-  jenis_produk!: string;
-  harga!: number;
-  stok!: number;
+  data = {
+    kode_produk: '',
+    nama_produk: '',
+    jenis_produk: '',
+    harga: 0,
+    stok: 0,
+  }
 
-  constructor() { }
+  constructor(private _product: ProductService, private _router: Router) { }
 
   ngOnInit(): void {
   }
 
   onSubmit(){
-    if (!this.kode_produk) {
-      alert('Kode Produk is Required')
-    }
-    if (!this.nama_produk) {
-      alert('Nama Produk is Required')
-    }
-    if (!this.jenis_produk) {
-      alert('Kategori Produk is Required')
-    }
-    if (!this.harga) {
-      alert('Harga Produk is Required')
-    }
-    if (!this.stok) {
-      alert('Stok Produk is Required')
-    }
+    console.log(this.data)
+    this._product.addProduct(this.data)
+      .subscribe((res: any) => {
+        if (res) {
+          this._router.navigateByUrl('/product')
+        }
+      })
   }
 
 }
